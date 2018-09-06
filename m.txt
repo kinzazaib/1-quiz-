@@ -1,0 +1,65 @@
+
+Name=            Maryum marri
+Clas=            BSCS 6th semester
+Scession=        2015-2019
+Rollno=          64
+Submitted to=    sir Imran
+
+
+
+
+
+How to launch swi-prolog on command line?
+Answer = sudo add-apt-repository ppa:swi-prolog/stable
+	 sudo apt-get update
+	 sudo apt-get install swi-prolog
+ 
+What is the extension of a prolog Knowledge Base?
+ Answer = A collection of facts and rules is called a knowledge base the extension knowledge Base is a DataBase.
+ 
+
+How to load a knowledge base in prolog?
+ Answer = For example  the file name is program.pl
+we load by this command 	consult('program.pl').
+ 
+
+How to exit a prolog session?
+Answer = To exit SWI-Prolog, type halt..
+ 
+
+How to get help on a topic from within prolog?
+Answer = swipl --help
+ 
+
+What is an atom?
+An atom is a general-purpose name with no inherent meaning. It is composed of a sequence of characters that is parsed by the Prolog reader as a single unit.
+ 
+
+What is a term?
+ All Prolog data structures are called terms. A term is either:
+     A constant, which can be either an atom or a number.
+    A variable.
+    A compound term. 
+ 
+
+What is functor?
+fanctor works in prolog as in function works in C language. 
+ 
+
+What are complex terms?
+ Complex terms define as in functor the different types of variables are used is called complex term. 
+ 
+
+What is predicate?
+for example 
+	person1 likes person2.
+	likes(person1,person2) it is a perdicate, because it has no period means in the last it has no fullstop, if fullstop has it will be a fact. 
+ 
+
+What is arity of predicate?
+ The arity of a functor is the number of arguments it takes. ... Every fact and rule in a Prolog program, and every built-in predicate has an arity. Often this is referred to in descriptions of these facts and rules, by appending / and the arity to the name of the rule or fact.
+ 
+
+What is unification?
+Pettern matching process.
+	In short, the process of matching the items with variables is known as unification.
